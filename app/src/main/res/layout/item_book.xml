@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:text="Cien Años de Soledad"/>
+
+            <TextView
+                android:id="@+id/textAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="2dp"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:textColor="@color/purple_500"
+                android:text="Autor: Gabriel García Marquez"/>
+
+            <TextView
+                android:id="@+id/textCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:textColor="@color/purple_500"
+                android:text="Categoria: Literatura y Ficcion"/>
+
+            <TextView
+                android:id="@+id/textEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:text="Editorial: Planeta"/>
+
+            <TextView
+                android:id="@+id/textResumen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:maxLines="5"
+                android:ellipsize="end"
+                android:text="Una novela clave en dos aspectos: en el que implica su exitosa aparición dentro del panorama de la literatura contemporánea, y en el que fundamenta el advenimiento de Macondo y la saga centenaria de los Buendía como ámbito de leyenda de referencia ineludible para compulsar la fascinante materia de los mundos novelescos."/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
